@@ -6,32 +6,32 @@ This repository is for CFG Degree assignments
 
 
 ## About Me 💁🏾‍♀️
-Hi! 👋🏾 My name is Lotem and I got by **She/Her** pronouns. 
-I enjoy knitting, sewing, thrifting, painting, reading and writing, literature, travelling and I'm completely obsessed with Orangutans! 😊.
+Hi! 👋🏾 My name is Lotem and I go by **She/Her** pronouns. 
+I enjoy knitting, sewing, thrifting, painting, literature, travelling and I'm completely obsessed with Orangutans! 😊.
 
 ### Education 📚: 
-I'm currently in my final year of univeristy studying English Literature.
+I'm currently in my final year of univeristy, studying English Literature.
 
 ### Vocation 📆: 
-I work in childcare as a nursery worker.
+I work in childcare as a Nursery Worker.
 
 
 ----
 
 
-## Assignment overview
+## Assignment overview 📘
 For this assignment I will be demonstrating my ability to use GitHub, Git commands, and Markdown.
 
-### The repository incudes:
+### This repository incudes:
 - A _README.md_ file (this file).
-- A _.gitignore_ file (A configuration file that tells Git which files/folders to ignore (not track or commit) which prevents unnecessary, temporary, or sensitive files from being added to a repository).
+- A _.gitignore_ file (A configuration file that tells Git which files/folders to ignore (not track or commit), thus, preventing unnecessary, temporary, or sensitive files from being added to the repository).
 - A _requirements.txt_ file (A plain text file usually for Python projects, that lists all the packages (dependencies) a project needs).
 
 
 ----
 
 
-## Workflow
+## Workflow 👩🏾‍💻
 This section outlines my workflow for this assignment, included are explanations and screenshots. 
 
 
@@ -48,7 +48,7 @@ This section outlines my workflow for this assignment, included are explanations
 ![creating link between local and remote repository using git clone](./screenshots/git%20clone.png)
 
 
-4. Used the commands `git add` to move changes to _README.md_ file from working directory ---> staging area, and then `git commit -m` to save the changes in the staging area to the local repository. 
+4. Used the command `git add` to move changes to _README.md_ file from working directory ---> staging area, and then `git commit -m` to save the changes in the staging area to the local repository. 
 
 ![Using commands git add and git commit](./screenshots/git%20add_git%20commit%202.png)
 
@@ -74,11 +74,11 @@ This section outlines my workflow for this assignment, included are explanations
 
 
 9. Switched to the local _main_ branch using the command `git switch main`, then used `git fetched` to get the most recent updates from the remote repository. 
-`[2c4ba99..2031d43  main            --> origin/main]` shows the remote main branch has new commitments that my local main does not.
+The output: `[2c4ba99..2031d43  main            --> origin/main]` shows the remote main branch has new commitments that my local main does not.
 
 ![Using the command git fetch](./screenshots/git%20fetch.png)
 
 
-10. Used the command `git pull origin main` to full the latest commits from the remote main branch --> the local main branch, then used the command `git status` to confirm that the local branch is in sync with the remote branch.
+10. Used the command `git pull origin main` to pull the latest commits from the remote main branch --> the local main branch, then used the command `git status` to confirm that the local branch is in sync with the remote branch.
 
 ![Using the commandd git pull origin main](./screenshots/git%20pull%20origin%20main.png)
