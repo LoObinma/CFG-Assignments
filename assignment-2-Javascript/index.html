@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital,wght@0,300..700;1,300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 2 Web App</title>
+  </head>
+  <body>
+    <div class="theme-buttons">
+      <br />Select theme:<br />
+      <button data-theme="theme1">Theme 1</button>
+      <button data-theme="theme2">Theme 2</button>
+      <button data-theme="theme3">Theme 3</button>
+    </div>
+    <h1 id="current-date"></h1>
+    <div id="quote-container"><p id="inspirational-quote"></p></div>
+    <h2>How are you feeling today?</h2>
+    <div class="mood-buttons">
+      <button data-mood="happy">
+        <img src="Images/happiness.png" alt="happy button" />
+      </button>
+      <button data-mood="indifferent">
+        <img src="Images/indifferent.png" alt="indifferent button" />
+      </button>
+      <button data-mood="sad">
+        <img src="Images/sad.png" alt="sad button" />
+      </button>
+    </div>
+    <p id="mood-feedback"></p>
+    <div id="habit-container">
+      <h3 id="habit-heading">Habits</h3>
+      <div>
+        <ul class="habit-content">
+          <li>Drink 2L of water</li>
+          <li>Meditate for 5 minutes</li>
+          <li>Walk for 20 minutes</li>
+        </ul>
+      </div>
+      <button id="finish-day">Finish day</button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
