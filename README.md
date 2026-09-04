@@ -13,7 +13,7 @@ The database contains five related tables:
 - `games`
 - `rentals`
 
-## Features
+## Features 💡
 
 The project demonstrates relational database design, primary and foreign key
 relationships, data manipulation, joins, aggregate queries and stored procedures.
