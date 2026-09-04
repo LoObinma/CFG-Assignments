@@ -1,9 +1,9 @@
-# Board Game Café Database
+# Board Game Café Database 🎲
 
 A relational MySQL database designed to model the operations of a board game
 café, including members, menu purchases and game rentals.
 
-## Database Structure
+## Database Structure 👩🏾‍💻
 
 The database contains five related tables:
 
@@ -26,7 +26,7 @@ member's loyalty points based on their purchase.
 - MySQL
 - MySQL Workbench
 
-## Running the Project
+## Running the Project ▶️
 
 Run `board_game_cafe.sql` in MySQL Workbench to create the database, populate
 the tables with sample data and run the included queries.
