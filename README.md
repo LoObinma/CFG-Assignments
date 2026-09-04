@@ -3,7 +3,7 @@
 A relational MySQL database designed to model the operations of a board game
 café, including members, menu purchases and game rentals.
 
-## Database Structure 👩🏾‍💻
+## Database Structure ⚙️
 
 The database contains five related tables:
 
